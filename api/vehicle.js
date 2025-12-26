@@ -81,7 +81,7 @@ export default async function handler(req, res) {
     console.error("UPSTREAM ERROR:", err.message);
     return res.status(500).json({
       error: "API not working",
-      hint: "Upstream rejected request"
+      hint: "lun info nhi mili"
     });
   }
 }
